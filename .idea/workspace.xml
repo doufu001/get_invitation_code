@@ -380,8 +380,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="157" />
-    <option name="y" value="52" />
+    <option name="x" value="180" />
+    <option name="y" value="76" />
     <option name="width" value="1536" />
     <option name="height" value="819" />
   </component>
@@ -498,12 +498,12 @@
       <workItem from="1547944841886" duration="12274000" />
       <workItem from="1547967473371" duration="8760000" />
       <workItem from="1548029984393" duration="3626000" />
-      <workItem from="1548067549866" duration="506000" />
+      <workItem from="1548067549866" duration="736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39068000" />
+    <option name="totallyTimeSpent" value="39298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="157" y="52" width="1536" height="819" extended-state="1" />
