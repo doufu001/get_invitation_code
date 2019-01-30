@@ -56,6 +56,12 @@
     </div>
 
 </form>
+<br />
+<div class="container">
+    <div class="card">
+        <div class="card-body">请到 <a href="https://mpdf.in/">https://mpdf.in/</a> 注册账号</div>
+    </div>
+</div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
