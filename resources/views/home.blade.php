@@ -59,7 +59,8 @@
 <br />
 <div class="container">
     <div class="card">
-        <div class="card-body">请到 <a href="https://mpdf.in/">https://mpdf.in/</a> 注册账号</div>
+        <div class="card-body">获取成功先复制邀请码，然后请到 <a href="https://doufu001.com/">https://doufu001.com/</a> 注册账号<br>提示“qq不存在”即无注册资格</div>
+
     </div>
 </div>
 

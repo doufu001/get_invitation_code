@@ -13,13 +13,22 @@ class infoController extends Controller
 {
     public function store(Request $request)
     {
+        //用户注册过，显示邀请码
+        $user = User::where('qq', $request->qq)->first();
+        if (isset($user)) {
+            return back()->with('success', $user->invitation_code);
+        }
+
         $this->validate($request, [
-            'qq' => 'required|exists:qqs|unique:users',
+            'qq' => 'required|exists:qqs',
             'email' => 'required|unique:users|email',
-            'tel' => 'required|unique:users|regex:/^[1][3,4,5,7,8][0-9]{9}$/'
+            'tel' => 'required|unique:users|regex:/^[1][3,4,5,6,7,8,9][0-9]{9}$/'
         ]);
 
+        $user = User::where('qq', $request->qq)->first();
+
         if (Invitation_code::first() == true) {
+
             //获取一条邀请码
             $code = Invitation_code::first();
             //存储数据
