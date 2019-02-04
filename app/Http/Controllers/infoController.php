@@ -22,7 +22,7 @@ class infoController extends Controller
         $this->validate($request, [
             'qq' => 'required|exists:qqs',
             'email' => 'required|unique:users|email',
-            'tel' => 'required|unique:users|regex:/^[1][3,4,5,6,7,8,9][0-9]{9}$/'
+            'tel' => 'required|unique:users|regex:/^\d{11}$/'
         ]);
 
         $user = User::where('qq', $request->qq)->first();
